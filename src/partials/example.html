@@ -1,0 +1,65 @@
+<h1>Оставьте заявку!</h1>
+<form method="post" id="form">
+  <div class="row">
+    <label>🙂 Имя </label>
+    <input
+      type="text"
+      name="name"
+      placeholder=""
+      required
+      autofocus
+      autocomplete="off"
+      minlength="2"
+      maxlength="20"
+      title="как к Вам обращаться?"
+    />
+  </div>
+
+  <div class="row">
+    <label>📧 email</label>
+    <input
+      type="text"
+      name="email"
+      placeholder="щось@gmail.com"
+      required
+      autocomplete="off"
+      maxlength="40"
+      title="Пошта"
+    />
+  </div>
+
+  <div class="row">
+    <label>🤙 телефон</label>
+    <input
+      type="text"
+      name="phone"
+      placeholder="+380..."
+      required
+      autocomplete="off"
+      minlength="10"
+      maxlength="12"
+      title="или в Telegram/WhatsApp"
+    />
+  </div>
+
+  <div class="row">
+    <textarea
+      name="message"
+      maxlength="100"
+      id="message"
+      cols="30"
+      rows="4"
+      placeholder="Коментар"
+      title="Чим можу бути корисний?"
+    ></textarea>
+  </div>
+
+  <div class="row">
+    <input type="checkbox" name="rule" id="rule" checked required />
+    <label for="rule">Согласны на обработку персональных данных</label>
+  </div>
+
+  <div class="row">
+    <input type="submit" value="👉 отправить" />
+  </div>
+</form>
